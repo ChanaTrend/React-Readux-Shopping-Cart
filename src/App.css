@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.shoppingbasket {
+  width:40px;
+  height:40px;
+  background-color:rgb(100, 100, 100);
+  position:absolute;
+}
+.basketitems {
+  color:#fff;
+  font-size:80%;
+  background-color:#e74c3c;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-90%);
+  -moz-transform:translate(-50%,-90%);
+  transform:translate(-50%,-90%);
+  padding:0 12%;
+  border-radius:1000px;
+}
+.shoppingbasket .top {
+  width:60%;
+  height:10%;
+  border-radius:1000px;
+  background-color:#fff;
+  position:absolute;
+  top:25%;
+  left:50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.shoppingbasket .bottom {
+  width:50%;
+  height:10%;
+  border-radius:1000px;
+  background-color:#fff;
+  position:absolute;
+  bottom:25%;
+  left:50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.shoppingbasket .left {
+  width:50%;
+  height:10%;
+  border-radius:1000px;
+  background-color:#fff;
+  position:absolute;
+  top:45%;
+  left:1%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform: translateX(80deg);
+  transform: translateX(80deg);
+}
+.shoppingbasket .right {
+  width:50%;
+  height:10%;
+  border-radius:1000px;
+  background-color:#fff;
+  position:absolute;
+  top:45%;
+  right:1%;
+  -webkit-transform: rotate(-80deg);
+  -moz-transform: translateX(-80deg);
+  transform: translateX(-80deg);
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 6px;
+}
+
+.dot:hover {
+  background-color: rgb(185, 185, 185);
+}
+
+.add-to-cart-button {
+  position: absolute;
+  left: 26%;
+  align-items: center;
+  bottom: 10px;
+}
+
+.product-price {
+  position: absolute;
+  left: 38%;
+  align-items: center;
+  bottom: 60px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+
+.backdrop-container{
+  display: none;
+  position: fixed;
+  z-index: 2; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);  
+  -webkit-animation: fadeIn 1.2s ease-in-out;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.home-product-section{
+  margin-top: 20px;
+  margin-bottom: 20%;
+}
+
+.home-shopping-cart{
+  margin-top: 6px;
+  cursor: "pointer" 
+}
+
+.home-button{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sidenav-container {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background-color: rgb(236, 236, 236);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidenav-container a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin: 10px 0;
+}
+
+.sidenav-container a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav-container .closebtn {
+  font-size: 3rem;
+  font-weight: 700;
+  color:#000000 ;
+  padding-right: 1rem;
+  cursor: pointer;
+} 
+
+.sidenav-container .drawer-close-button{
+  height: 3rem;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.curser-design{
+  cursor: pointer;
+}
+
+.drawer-style{
+  padding-left: 50px; 
+  padding-right: 20px;
+}
+
+.cart-inside-drawer{
+  margin-top: -10px;
+}
+
+.cart-items{
+  margin-top: 40px;
+}
+
+.checkout-btn{
+  float: right;
+}
+
+.filter-styles{
+  margin-top: 5px;
+}
+
+.orderby-style{
+  margin-top: 5px;
+}
+
+.product-data{
+  text-align: center;
+}
+
+.total-amount{
+  font-weight: 800;
+}
+
+.count-align{
+  margin-right: 5px;
+}

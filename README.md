@@ -1,2 +1,9 @@
 # Root-Code-Labs-Practical-Test
-React Rudux thunk Shopping cart
+Shopping Cart using Redux and React
+
+To start
+
+* npm install
+* npm start
+
+--Free to use for anyone--
