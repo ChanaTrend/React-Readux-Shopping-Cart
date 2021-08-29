@@ -1,7 +1,7 @@
 {
-  "name": "rootcodelabs-shopping-cart",
+  "name": "react-redux-shopping-cart",
   "version": "0.1.0",
-  "homepage": "https://github.com/ChanaTrend/Root-Code-Labs-Practical-Test",
+  "homepage": "https://github.com/ChanaTrend/React-Redux-Shopping-Cart",
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
