@@ -1,5 +1,4 @@
-# Root-Code-Labs-Practical-Test
-Shopping Cart using Redux and React
+# Shopping Cart using Redux and React
 
 To start
 
